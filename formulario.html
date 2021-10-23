@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="./styles/style2.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="enlace enlace_sub" href="./home.html">Home</a>
+        <a class="enlace" href="./conocenos.html">Conócenos</a>
+        <a class="enlace" href="./contacto.html">Contacto</a>
+        <a class="enlace" href="./alumnos.html">Alumnos</a>
+        <a class="enlace enlace_border" href="./formulario.html">Inscríbete</a>
+    </nav>
+    <div class="imagenes">
+        <div class="logo">
+            <img src="./images/letscoder-sin-fondo.png" alt="" class="logo1">
+        </div>
+    </div>
+
+    <!-- <h1 class="tituloInscripcion">Formulario de inscripción</h1> -->
+    <form action="mensaje.html" class="formulario">
+        <h2 class="formularioTitulo">Inscríbete</h2>
+        <fieldset class="datosPersonales">
+            <p class="datosPersonalesCopy">Datos personales</p> 
+                <div class="datosPersonales1">
+                <input class="inputDatos" type="text" id="nombre"  placeholder="Nombre" required>
+                <input class="inputDatos" type="text" id="aplellidos" placeholder="Apellidos" required>
+                <input class="inputDatos" type="text" id="poblacion" placeholder="Población" required>
+            </div>
+            <div class="datosPersonales1"> 
+                <input class="inputDatos" type="number" id="cp" placeholder="Código Postal">
+                <input class="inputDatos" type="number" id="edad" placeholder="Edad">
+                <input class="inputDatos" type="tel" id="telefono" placeholder="Teléfono" required>
+            </div>  
+                <input class="inputDatos inputDatosEmail" type="email" id="email" placeholder="Email" required>
+                <!-- <div class="genero">
+                    <p class="genero_copy">Género:</p>
+                    <label for="genero1">Masculino</label>
+                    <input type="radio" class="inputDatos" id="genero1">
+                    <label for="genero1">Femenino</label>
+                    <input type="radio" class="inputDatos" id="genero1">
+                </div> -->
+                
+            </label>
+        </fieldset>
+        <fieldset class="infoCurso">
+            <p class="datosPersonalesCopy">Información sobre el curso</p>
+            <div class="tipoCurso1">
+                <p class="tipoCurso2">Modalidad del curso:</p>
+            <label for="tipoCurso">Full- Time
+                <input type="radio" name="tipoCurso">
+            </label>
+            <label for="tipoCurso">Part - Time
+                <input type="radio" name="tipoCurso">
+            </label>
+        </div>
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value=""></option>
+                <option value="Las Palmas">Las Palmas</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Málaga">Málaga</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Barcelona">Barcelona</option>
+            </select>
+            <label for="fecha" >Fecha de comienzo:
+                <input type="date" id="fecha" required>
+            </label>
+            <div class="tecno">
+                <p class="tecno_copy">Marca las tecnologías o herramientas que conozcas:</p>
+                <input type="checkbox">HTML
+                <input type="checkbox">CSS
+                <input type="checkbox">JavaScript
+                <input type="checkbox">Java
+                <input type="checkbox">Git
+                <input type="checkbox">GitHub
+                <input type="checkbox">Bootstrap
+                <input type="checkbox">React
+            </div>
+        </fieldset>
+        <fieldset class="comentarios">
+            <input type="text" placeholder="Escribe tu comentario" class="comentario">
+            <button type="submit" class="boton_ins botonForm">Inscribirme</button>
+            <button type="reset" class="boton_ins botonForm">Restaurar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   Estilos de HOME */
+
+.nav{
+    margin: 15px 0px 0px 15px;
+     width: 210px;
+    /*height: 30px;  */
+    /* border: 2px solid black; */
+    background: rgba(212, 211, 211, 0.493);
+    
+    /* position: fixed; */
+}
+
+.enlace{
+    /* margin-right: 15px; */
+    margin: 0px 5px 0px 5px;
+    line-height: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.background{
+    position: absolute;
+    width: 90%;
+    left: 120px;
+    top: 130px;  
+}
+.bg{
+    /* width: 1100px; */
+    width: 90%;
+    height: 200px;
+    /* background-size: cover; */
+} 
+.logo{
+    /* position: absolute; */
+    text-align: center;
+    position: relative;
+    /* top: -5px; */
+    z-index: 1;
+    /* bottom: -70px; */
+    /* top: 100px; */
+}
+
+.tituloHome{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 15px;   
+}
+
+h3{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+.contenedor1{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin-bottom: 30px;
+    top: 100px;
+}
+
+.fechas_big{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.peque{
+    margin: 0px 10px 0 10px;
+    font-size: 0,8rem;
+}
+div .peque__margen{
+    margin-left: 16px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.boton{
+    margin-left: 15px;
+    padding: 8px 15px;
+    
+}
+
+.contenedor2{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.contenedor3{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+/* Estilos de CONTACTO */
+
+.infoContact{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.infoContact__negrita{
+    font-weight: bold;
+}
+
+
+/* Estilos de CONÓCENOS */
+
+.copy{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mentores{
+    display: flex;
+    margin: 80px auto;  
+    width: 90%;  
+    justify-content: space-evenly;
+}
+
+.mentores__ment{
+    width: 250px;
+    height: 800px;
+    text-align: center;
+}
+
+.imgMentor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.subtitulo__ment{
+    text-align: center;
+    margin-top: 20px;
+}
+.copy__ment{
+    text-align: center;
+    margin-top: 20px;
+}
+

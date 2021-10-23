@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Alumnos</title>
+    <link rel="stylesheet" href="./styles/style2.css">
+</head>
+
+<body>
+
+    <body>
+
+        <nav class="nav">
+            <a class="enlace enlace_sub" href="./home.html">Home</a>
+            <a class="enlace" href="./conocenos.html">Conócenos</a>
+            <a class="enlace" href="./contacto.html">Contacto</a>
+            <a class="enlace" href="./alumnos.html">Alumnos</a>
+            <a class="enlace enlace_border" href="./formulario.html">Inscríbete</a>
+
+        </nav>
+        <div class="imagenes">
+            <div class="logo">
+                <img src="./images/letscoder-sin-fondo.png" alt="" class="logo1">
+            </div>
+            <!-- <div class="background">
+                <img src="./images/background-image.jpg" alt="" class="bg">
+            </div> -->
+        </div>
+        <h1 class="alumnos">Información de nuestros alumnos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                    <th>Hobby</th>
+                    <th>Comida favorita</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andrés</td>
+                    <td>24</td>
+                    <td>Madrid</td>
+                    <td>Música</td>
+                    <td>Pizza</td>
+                </tr>
+                <tr>
+                    <td>Eloy</td>
+                    <td>29</td>
+                    <td>Berlín</td>
+                    <td>Waterpolo</td>
+                    <td>Paella</td>
+                </tr>
+                <tr>
+                    <td>Ismael</td>
+                    <td>32</td>
+                    <td>Zaragoza</td>
+                    <td>Montar en moto</td>
+                    <td>Gnocchi</td>
+                </tr>
+                <tr>
+                    <td>Jesús</td>
+                    <td>28</td>
+                    <td>San Cristobal</td>
+                    <td>Running</td>
+                    <td>Pizza</td>
+                </tr>
+                <tr>
+                    <td>Manuel</td>
+                    <td>34</td>
+                    <td>Las Palmas</td>
+                    <td>Crossfit</td>
+                    <td>Tacos</td>
+                </tr>
+                <tr>
+                    <td>Nicolas</td>
+                    <td>21</td>
+                    <td>Zagreb</td>
+                    <td>Fotografía</td>
+                    <td>Burek</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1 class="alumnos aprender">¿Qué estamos aprendiendo?</h1>
+        <div class="listas">
+            <ul class="lengHtml">
+                <li class="listas__titulo">HTML
+                    <ul>
+                        <li class="listas__subtitulo">Etiquetas
+                            <ol class="listas__desc">
+                                <li>&lt;section&gt;&lt;/section&gt;</li>
+                                <li>&lt;nav&gt;&lt;/nav&gt;</li>
+                                <li>&lt;div&gt;&lt;/div&gt;</li>
+                            </ol>
+                        </li>
+                        <li class="listas__subtitulo">Atributos
+                            <ol class="listas__desc">
+                                <li>Class</li>
+                                <li>ID</li>
+                                <li>placeholder</li>
+                            </ol>
+                        </li>
+                        <li class="listas__subtitulo">Elementos
+                            <ol class="listas__desc">
+                                <li>&lt;p class="parrafo"&gt; Esto es un párrafo &lt;/p&gt;</li>
+                                <li>&lt;h1 class="titulo"&gt; Esto es un título&lt;/h1&gt;</li>
+                                <li>&lt;nav class="navega"&gt; Esto es un menú de navegación&lt;/nav&gt;</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="lengCss">
+                <li class="listas__titulo">CSS
+                    <ul>
+                        <li class="listas__subtitulo">Propiedades
+                            <ol class="listas__desc">
+                                <li>font-size</li>
+                                <li>margin</li>
+                                <li>background-image</li>
+                            </ol>
+                        </li>
+                        <li class="listas__subtitulo">Selectores
+                            <ol class="listas__desc">
+                                <li>Selector de Clases - ".classname"</li>
+                                <li>Selector de ID - "#idname"</li>
+                                <li>Selector universal - "*{}"</li>
+                            </ol>
+                        </li>
+                        <li class="listas__subtitulo">Flexbox
+                            <ol class="listas__desc">
+                                <li>"display: flex" - Activa flexbox</li>
+                                <li>justify-content - Organiza los elementos en el plano horizontal</li>
+                                <li>align-items - Organiza los elementos en el plano vertical</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1 class="alumnos tituloHorario">Horario</h1>
+        <div class="horario">
+            <dt class="horas">De 9:00 a 9:15</dt>
+            <dd class="horas_copy">Daily meeting del mentor con los alumnos donde explican su avance, fallos y atascos.</dd>
+            <dt class="horas">De 9:15 a 10:00</dt>
+            <dd class="horas_copy">Los alumnos continuan trabajando con su proyecto.</dd>
+            <dt class="horas">De 10:00 a 10:15</dt>
+            <dd class="horas_copy">Los alumnos paran para desayunar.</dd>
+            <dt class="horas">De 10:15 a 11:15</dt>
+            <dd class="horas_copy">Workshop por parte del mentor donde nos explica lo que vamos a trabajar.</dd>
+            <dt class="horas">De 11:15 a 14:00</dt>
+            <dd class="horas_copy">Los alumnos continuan trabajando con su proyecto.</dd>
+            <dt class="horas">De 14:00 a 15:00</dt>
+            <dd class="horas_copy">Los alumnos paran para comer.</dd>
+            <dt class="horas">De 15:00 a 15:50</dt>
+            <dd class="horas_copy">Los alumnos continuan trabajando con su proyecto.</dd>
+            <dt class="horas">De 15:50 a 16:00</dt>
+            <dd class="horas_copy">Los alumnos comentan que tal ha ido el día y se comentan si ha habido problemas.</dd>
+        </div>
+    </body>
+    <footer>
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgba(206, 203, 203, 0.548);"></path>
+            </svg></div>
+        <div class="contendor_footer">
+            <div class="contCopy">
+                <p class="copyr">&#169 Página web creada por Manuel Fernández</p>
+            </div>
+            <div class="redes-sociales-cont-f">
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous"></script>
+
+</html>
