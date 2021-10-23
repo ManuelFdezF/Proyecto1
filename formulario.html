@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Formulario de Inscripción</title>
     <link rel="stylesheet" href="./styles/style2.css">
 </head>
+
 <body>
     <nav class="nav">
         <a class="enlace enlace_sub" href="./home.html">Home</a>
@@ -25,68 +27,97 @@
     <form action="mensaje.html" class="formulario">
         <h2 class="formularioTitulo">Inscríbete</h2>
         <fieldset class="datosPersonales">
-            <p class="datosPersonalesCopy">Datos personales</p> 
-                <div class="datosPersonales1">
-                <input class="inputDatos" type="text" id="nombre"  placeholder="Nombre" required>
+            <p class="datosPersonalesCopy">Datos personales</p>
+            <div class="datosPersonales1">
+                <input class="inputDatos" type="text" id="nombre" placeholder="Nombre" required>
                 <input class="inputDatos" type="text" id="aplellidos" placeholder="Apellidos" required>
                 <input class="inputDatos" type="text" id="poblacion" placeholder="Población" required>
             </div>
-            <div class="datosPersonales1"> 
+            <div class="datosPersonales1">
                 <input class="inputDatos" type="number" id="cp" placeholder="Código Postal">
                 <input class="inputDatos" type="number" id="edad" placeholder="Edad">
                 <input class="inputDatos" type="tel" id="telefono" placeholder="Teléfono" required>
-            </div>  
-                <input class="inputDatos inputDatosEmail" type="email" id="email" placeholder="Email" required>
-                <!-- <div class="genero">
+            </div>
+            <input class="inputDatos inputDatosEmail" type="email" id="email" placeholder="Email" required>
+            <!-- <div class="genero">
                     <p class="genero_copy">Género:</p>
                     <label for="genero1">Masculino</label>
                     <input type="radio" class="inputDatos" id="genero1">
                     <label for="genero1">Femenino</label>
                     <input type="radio" class="inputDatos" id="genero1">
                 </div> -->
-                
+
             </label>
         </fieldset>
         <fieldset class="infoCurso">
             <p class="datosPersonalesCopy">Información sobre el curso</p>
-            <div class="tipoCurso1">
-                <p class="tipoCurso2">Modalidad del curso:</p>
-            <label for="tipoCurso">Full- Time
-                <input type="radio" name="tipoCurso">
-            </label>
-            <label for="tipoCurso">Part - Time
-                <input type="radio" name="tipoCurso">
-            </label>
-        </div>
-            <label for="ciudad">Ciudad</label>
-            <select name="ciudad" id="ciudad">
-                <option value=""></option>
-                <option value="Las Palmas">Las Palmas</option>
-                <option value="Madrid">Madrid</option>
-                <option value="Málaga">Málaga</option>
-                <option value="Valencia">Valencia</option>
-                <option value="Barcelona">Barcelona</option>
-            </select>
-            <label for="fecha" >Fecha de comienzo:
-                <input type="date" id="fecha" required>
-            </label>
+            <div class="infoCurso1">
+                <div class="tipoCurso1">
+                    <p class="tipoCurso2">Modalidad del curso:</p>
+                    <label for="tipoCurso">Full- Time
+                        <input type="radio" name="tipoCurso">
+                    </label>
+                    <label for="tipoCurso">Part - Time
+                        <input type="radio" name="tipoCurso">
+                    </label>
+                </div>
+                <label for="ciudad">Ciudad</label>
+                <select name="ciudad" id="ciudad">
+                    <option value=""></option>
+                    <option value="Las Palmas">Las Palmas</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Marbella">Marbella</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Barcelona">Barcelona</option>
+                </select>
+                <label for="fecha">Fecha de comienzo:
+                    <input type="date" id="fecha" required>
+                </label>
+            </div>
+            <p class="datosPersonalesCopy">Marca las tecnologías o herramientas que conozcas:</p>
             <div class="tecno">
-                <p class="tecno_copy">Marca las tecnologías o herramientas que conozcas:</p>
-                <input type="checkbox">HTML
-                <input type="checkbox">CSS
-                <input type="checkbox">JavaScript
-                <input type="checkbox">Java
-                <input type="checkbox">Git
-                <input type="checkbox">GitHub
-                <input type="checkbox">Bootstrap
-                <input type="checkbox">React
+
+                <input type="checkbox" class="checkb">HTML
+                <input type="checkbox" class="checkb">CSS
+                <input type="checkbox" class="checkb">JavaScript
+                <input type="checkbox" class="checkb">Java
+
+                <input type="checkbox" class="checkb">Git
+                <input type="checkbox" class="checkb">GitHub
+                <input type="checkbox" class="checkb">Bootstrap
+                <input type="checkbox" class="checkb">React
+
             </div>
         </fieldset>
         <fieldset class="comentarios">
-            <input type="text" placeholder="Escribe tu comentario" class="comentario">
-            <button type="submit" class="boton_ins botonForm">Inscribirme</button>
-            <button type="reset" class="boton_ins botonForm">Restaurar</button>
+            <div class="comentarioBot">
+                <input type="text" placeholder="Escribe tu comentario" class="comentario">
+            </div>
+            <div class="contBotones">
+                <button type="submit" class="boton_ins botonForm">Inscribirme</button>
+                <button type="reset" class="boton_res botonForm">Restaurar</button>
+            </div>
+
         </fieldset>
     </form>
 </body>
+<footer>
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: rgba(206, 203, 203, 0.548);"></path>
+        </svg></div>
+    <div class="contendor_footer">
+        <div class="contCopy">
+            <p class="copyr">&#169 Página web creada por Manuel Fernández</p>
+        </div>
+        <div class="redes-sociales-cont-f">
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous"></script>
+
 </html>
