@@ -517,6 +517,17 @@ ol{
 
 /* --------------------------------------------- HORARIO ------------------------------------ */
 
+/* .containerHorario{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url(../images/blake-connally-IKUYGCFmfw4-unsplash.jpg);
+    background-position:  center;
+} */
+/* .listas{
+    width: 100%;
+    height: 500px;
+    background-color: #dad8d8;
+} */
 .horario{
     /* width: 50%; */
     width: 700px;
