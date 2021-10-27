@@ -14,8 +14,7 @@ body {
     background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../images/bggirl.jpg");
     /* background-repeat: no-repeat; */
     /* background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../images/double-bubble-dark.png"); */
-    /* background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../images/blake-connally-IKUYGCFmfw4-unsplash2.jpg"); */
-    /* background-size: cover; */
+    /* background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../images/email-pattern.png"); */
 }
 
 
@@ -26,15 +25,13 @@ body {
     justify-content: end;
     padding: 40px;
     font-weight: 700;
-    margin-right: 50px;
 }
 
 .enlace {
     margin-right: 3px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     color: white;
     text-decoration: none;
-    font-size: 16px;
 }
 .enlace_border{
     border: 1px solid #fff;
@@ -45,38 +42,31 @@ body {
     border-radius: 15px;
 }
 
-/* .nav .enlace_sub{
-    color: black;
-} */
 
 /* ------------------------------- LOGO -----------------------------*/
 
 .logo {
     text-align: center;
     margin-top: -50px;
-    /* margin-left: 150px; */
 }
 
 .logo1 {
-    width: 490PX;
+    width: 490px;
     height: 180px;
 }
 
 /* -------------------------------- HOME -----------------------------*/
 .subtituloHome {
-
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
     color: white;
-
 }
 
 .contenedorPrin {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    /* align-items: baseline; */
     margin-top: 45px;
     height: 380px;
 
@@ -85,7 +75,6 @@ body {
 .contenedor1 {
     width: 280px;
     height: 300px;
-    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     background-color: rgba(206, 203, 203, 0.548);
@@ -99,7 +88,6 @@ body {
 .contenedor2 {
     width: 280px;
     height: 300px;
-    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     background-color: rgba(160, 157, 157, 0.658);
@@ -115,7 +103,6 @@ body {
 .contenedor3 {
     width: 280px;
     height: 300px;
-    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     background-color: rgba(206, 203, 203, 0.548);
@@ -129,7 +116,6 @@ body {
 .fechas_big {
     font-size: 50px;
     font-weight: 700;
-    /* margin-bottom: 20px; */
     margin-top: 28px;
 }
 
@@ -144,6 +130,7 @@ body {
 
 }
 
+/* ------------------------------- ESTILOS DEL BOTON INSCRIBIRME ---------------------------*/
 .boton {
     /* margin-left: 15px; */
     margin-top: 35px;
@@ -152,19 +139,17 @@ body {
     color: white;
     background-color: #764ba298;
     box-shadow: inset 0 0 0 0 #667eea;
-    transition: ease-out 0.5s;
+    transition: ease-out 0.7s;
     border: 1px solid #764ba298;
-    /* box-shadow: 3px 3px 3px #666; */
+
 
 }
 
 .boton:hover {
     cursor: pointer;
     box-shadow: inset 99.19px 0 0 0 #667eea;
-    color: black;
     border: 1px solid #667eea;
-    /* transform: scale(1 , 1.2); */
-    /* background-color: #667eea; */
+    color: black;
 }
 
 
@@ -176,9 +161,7 @@ body {
     text-align: center;
     margin-top: 60px;
     font-size: 25px;
-    color: white;
-
-
+    color: #fff;
 }
 
 .infoContact2 {
@@ -186,8 +169,6 @@ body {
     font-size: 20px;
     color: white;
     margin-top: 20px;
-
-
 }
 
 .infocontac2__container {
@@ -198,7 +179,6 @@ body {
 .infoContact2Enlaces {
     text-decoration: none;
     color: #fff;
-    ;
 }
 
 .infoContact2Enlaces:hover {
@@ -233,7 +213,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .redes-sociales-cont:hover {
@@ -266,11 +245,10 @@ body {
 /* ------------------------------------- Estilos de CONÓCENOS -------------------------------------*/
 
 .conocenos {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     width: 60%;
     margin: auto;
-
 }
 
 .copy {
@@ -289,9 +267,9 @@ body {
     display: flex;
     margin: 55px auto;
     width: 90%;
-    position: relative;
+    /* position: relative; */
     justify-content: space-evenly;
-    border: 3px dotted #fff;
+    border: 2px dotted #fff;
     border-radius: 40px;
     /* height: 460px; */
     /* background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../images/blake-connally-IKUYGCFmfw4-unsplash.jpg"); */
@@ -300,7 +278,6 @@ body {
     /* background-position: center; */
     
 }
-
 /* .mentores::before {
     content: "";
     background-image: url("../images/blake-connally-IKUYGCFmfw4-unsplash.jpg");
@@ -315,17 +292,14 @@ body {
 } */
 
 .mentores__ment {
-    
     width: 250px;
     height: 515px;
     text-align: center;
     color: white;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .imgMentor {
@@ -364,9 +338,9 @@ body {
 
 }
 
-.mentores__caja--sup{
+/* .mentores__caja--sup{
     border: 1px solid black;
-}
+} */
 
 /* ----------------------------------------- ESTILOS DEL FOOTER --------------------------------------*/
 
@@ -396,16 +370,6 @@ footer .fab:hover {
     height: 70px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
-}
-
-.contCopy {
-    width: 50%;
-    height: 70px;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 .copyr {
@@ -413,12 +377,6 @@ footer .fab:hover {
     color: black;
 }
 
-.wave {
-    position: relative;
-    /* top: 0;
-    left: 0; */
- 
-}
 
 
 /* --------------------------------------- ESTILOS DE LA TABLA --------------------------------*/
@@ -458,14 +416,18 @@ tbody td:first-child{
     font-weight: bold;
 }
 
+
+
+
+/* -------------------------------------  ESTILO DE LISTAS ------------------------------ */
 .alumnos{
     color: white;
     font-size: 20px;
     text-align: center;
+    font-size: 22px;
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
-
-
-/* -------------------------------------  ESTILO DE LISTAS ------------------------------ */
 
 .listas{
     display: flex;
@@ -503,31 +465,17 @@ ol{
     border-radius: 15px;
 }
 
-.alumnos{
-    font-size: 22px;
-    margin-bottom: 35px;
-    margin-top: 35px;
-}
 .aprender {
     margin-top: 90px;
 }
+
+
+/* --------------------------------------------- HORARIO ------------------------------------ */
+
 .tituloHorario{
     margin-top: 90px;
 }
 
-/* --------------------------------------------- HORARIO ------------------------------------ */
-
-/* .containerHorario{
-    width: 100%;
-    height: 500px;
-    background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url(../images/blake-connally-IKUYGCFmfw4-unsplash.jpg);
-    background-position:  center;
-} */
-/* .listas{
-    width: 100%;
-    height: 500px;
-    background-color: #dad8d8;
-} */
 .horario{
     /* width: 50%; */
     width: 700px;
@@ -535,8 +483,7 @@ ol{
     margin: 25px auto;
     background-color: #b6c2d9;
     padding: 10px 0px 0px 20px;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
 }
 
 .horas{
@@ -544,8 +491,7 @@ ol{
     font-size: 17px;
     margin-top: 8px;
     font-style: italic;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
 
 .horas_copy{
@@ -557,7 +503,6 @@ ol{
 .formulario{
     width: 50%;
     margin: auto;
-    /* height: 700px; */
     background-color: #b6c2d9;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
@@ -585,17 +530,15 @@ ol{
     font-size: 18px;
     margin: 15px 0px 20px 0px;
     font-weight: bold;
-
 }
 
 .inputDatos{
     width: 30%;
     margin: auto;
     padding: 15px;
-    /* border-radius: 15px; */
     margin-bottom: 15px; 
     border: none;
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
     font-size: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
